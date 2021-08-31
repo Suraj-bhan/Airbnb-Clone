@@ -2,8 +2,7 @@ import Image from "next/image";
 import {
     GlobeAltIcon,
     MenuIcon,
-    UseCircleIcon,
-    UsersIcon,
+    UserCircleIcon,
     SearchIcon,
 } from '@heroicons/react/solid'
 
@@ -27,7 +26,7 @@ function Header() {
                 <GlobeAltIcon className="h-6 "/>
                 <div className="flex items-center space-x-2 border-2 p-2 rounded-full">
                     <MenuIcon className="h-6"/>
-                    <UseCircleIcon className="h-6"/>
+                    <UserCircleIcon className="h-6"/>
                 </div>
             </div>
         </header>
